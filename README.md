@@ -17,6 +17,7 @@ The inputs for classes and functions must be clearly stated and
 Each file.py should be 
 
 
+
 # description structure
 It is very important for readability (by ourselves and others) and mantainability to have a clear distinction between different parts of a project.
 
@@ -40,3 +41,18 @@ The principal object of the project are set of trajectories. The data structures
 
 # suggestion for bibliography
 https://www.undermind.ai/
+
+# suggestion minimal daily routine
+1) Reading articles:
+- sum up in the overleaf as a section what you have read
+2) Looking at data:
+- Choose some information about what you have learned and write it somewhere.
+If it seems bullshit is ok. Reference yourself to what you have already learnt
+3) Coding:
+- Comment, or try to comment every snippets of code you write. Some snippet are going 
+to multiply above all the first period when ideas are not that clear.
+At the end of the day always repeat the routine of:
+`cd $PROJECT_DIR`, get in the git repository   
+`git add .` , this command adds the changes of the local project into an internal state of github, which means, you can now have the possibility to update the repository online    
+`git commit -m "description of whatever you have done"`, this snippet marks the added material with a name (implicitely) and a description    
+`git push` it updates the project online. It is useful to have synchronized material. 
